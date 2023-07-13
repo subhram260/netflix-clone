@@ -1,0 +1,40 @@
+.video{
+    padding: 20px;
+    float: left;
+    transition: 0.3s ease-in;
+    /* outline: 2px solid red; */
+}
+
+.video:hover{
+    transform: scale(1.1);
+}
+
+.video-image{
+  height: 8em;  
+  border-radius: 6px;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  /* outline: 2px solid rgb(123, 0, 255); */
+}
+
+.title{
+    font-weight: 500;
+    /* outline: 2px solid red; */
+
+}
+
+.Channel-name{
+    margin-top: 5px;
+    font-size: 11px;
+    opacity: 70%;
+    /* outline: 2px solid red; */
+
+}
+.video-view_count-time{
+    margin-top: 1px;
+    font-size: 10px;
+    opacity: 70%;
+    /* outline: 2px solid red; */
+
+}
+

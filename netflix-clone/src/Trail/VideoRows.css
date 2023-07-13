@@ -1,0 +1,21 @@
+.videorows-outer{
+    margin: 20px;
+}
+
+.videorows{
+    display: flex;
+    overflow-x: auto;
+    /* outline: 2px solid rgb(115, 0, 255); */
+  }
+
+.videorows::-webkit-scrollbar{
+    overflow: hidden;
+  }
+
+.Category_list{
+    padding-left: 25px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+  

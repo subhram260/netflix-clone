@@ -1,0 +1,28 @@
+.row{
+    /* padding: 50px; */
+}
+.row-img-group{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /* width: 200px; */
+    
+}
+
+.row-img-group::-webkit-scrollbar{
+    overflow: hidden;
+}
+.row-img{
+    display: flex;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 4%;
+    transition: 0.5s;
+    /* outline:1px solid red; */
+}
+
+.row-img:hover{
+    transform: scale(1.1);
+}
